@@ -1,1 +1,1 @@
-# 禁止
+# stop skidding
