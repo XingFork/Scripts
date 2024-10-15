@@ -1,1 +1,1 @@
-## try bypassing will let you get banned
+## Not allowed
