@@ -1,5 +1,6 @@
 return {
-["41f52c0d-2766-4243-b0cc-2717d7a8b49e"] = true, --self
+["41f52c0d-2766-4243-b0cc-2717d7a8b49e"] = true,--self
+["fdb92b6f-2ada-4d39-a933-55c7d6ae12fc"] = true,
 ["799b7339-c15a-4eb3-a495-1d5c9b020294"] = true, --无敌
 ["d83ba42f-39b0-407c-b21f-1ec6c8d750f7"] = true,
 ["141d474d-1e4c-4906-9daf-d498e810ddd4"] = true,
