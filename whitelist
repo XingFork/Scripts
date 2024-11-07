@@ -1,9 +1,7 @@
 return {
 ["xingtaiduan"] = true,
 ["XTD_009"] = true,
-["wrttwww"] = true, --无敌
-["d83ba42f-39b0-407c-b21f-1ec6c8d750f7"] = true,
-["141d474d-1e4c-4906-9daf-d498e810ddd4"] = true,
+["wrttwww"] = true,
 ["AAAAAAAAA_r9"] = true,
 ["AAAAAAAAAA_r10"] = true,
 ["AAAAAAAAAAA_r11"] = true,
