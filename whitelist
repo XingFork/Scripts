@@ -1,15 +1,16 @@
 return {
-["xingtaiduan"] = true,
+["xingtaiduan"] = true, --self
 ["XTD_009"] = true,
-["wrttwww"] = true,
-["AAAAAAAAA_r9"] = true,
+["wrttwww"] = true, --1
+["AAAAAAAAA_r9"] = true, --2
 ["AAAAAAAAAA_r10"] = true,
 ["AAAAAAAAAAA_r11"] = true,
-["wee4788"] = true,
-["fiowsja1"] = true,
-["ufgudhej7"] = true,
-["dbdhgdg5"] = true,
-["leigg40"] = true,
-["houyaling"] = true,
-["qdrevjocbu3274"] = true
+["wee4788"] = true, --3
+["fiowsja1"] = true, --4
+["ufgudhej7"] = true, --5
+["dbdhgdg5"] = true, --6
+["leigg40"] = true, --7
+["houyaling"] = true, --8
+["qdrevjocbu3274"] = true, --9
+["SKy_WiII0"] = true, --10
 }
