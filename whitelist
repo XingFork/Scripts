@@ -13,5 +13,6 @@ return {
 ["houyaling"] = true, --8
 ["qdrevjocbu3274"] = true, --9
 ["Sky_WiII0"] = true, --10
-["uqisgi"] = true --12 P
+["uqisgi"] = true, --12 P
+["sb_houlei"] = true,
 }
