@@ -1,7 +1,7 @@
 return {
 ["xingtaiduan"] = true, --self
 ["XTD_009"] = true,
-["wrttwww"] = true, --1
+["wrttwww1"] = true, --1
 ["AAAAAAAAA_r9"] = true, --2
 ["AAAAAAAAAA_r10"] = true,
 ["AAAAAAAAAAA_r11"] = true,
