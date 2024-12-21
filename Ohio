@@ -1,1 +1,0 @@
-game.StarterGui:SetCore("SendNotification", {Title = "XA：提示", Text = "脚本更新中"})
