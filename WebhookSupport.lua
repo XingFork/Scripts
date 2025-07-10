@@ -43,7 +43,7 @@ local Fields = {
 if not _G.XALoaded then
     _G.XALoaded = true
     request({
-        Url = (...)[1],
+        Url = ({...})[1],
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/json"
