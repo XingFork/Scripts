@@ -1,1 +1,11 @@
+local MessageBox = loadstring(game:HttpGet("https://pastebin.com/raw/6uBnwKW9"))()
 
+MessageBox({Position = UDim2.new(0.5,0,0.5,0), Text = "XA：提示", Description = "由于主群聊已被封禁，请加入我们的二群 758609700", MessageBoxIcon = "Warning", MessageBoxButtons = "OK", Result = function(res)
+   if res == "OK" then
+       setclipboard("758609700")
+       game.StarterGui:SetCore("SendNotification", {
+           Title = "XA：提示",
+           Text = "已复制到剪贴板",
+       })
+   end
+end})
