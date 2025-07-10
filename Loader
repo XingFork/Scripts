@@ -1,2 +1,15 @@
 task.spawn(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Xingtaiduan/Script/refs/heads/main/XA"))()end)
 local W=Instance.new("ScreenGui",gethui())local E=Instance.new("ImageLabel",W)E.AnchorPoint=Vector2.new(.5,.5)E.Position=UDim2.new(.5,0,.5,0)E.Size=UDim2.new(0,400,0,400)E.BackgroundTransparency=1 E.Image="rbxassetid://96484256426204"E.ImageTransparency=1 local o=game:GetService("TweenService")local U=TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0)local j={ImageTransparency=0}local e=TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0)local J={ImageTransparency=1}local k=o:Create(E,U,j)local T=o:Create(E,e,J)k:Play()k.Completed:Wait()task.wait(2)T:Play()T.Completed:Wait()W:Destroy()
+wait(1)
+
+local MessageBox = loadstring(game:HttpGet("https://pastebin.com/raw/6uBnwKW9"))()
+
+MessageBox({Position = UDim2.new(0.5,0,0.5,0), Text = "XA：提示", Description = "由于主群聊已被封禁，请加入我们的二群 758609700", MessageBoxIcon = "Warning", MessageBoxButtons = "OK", Result = function(res)
+   if res == "OK" then
+       setclipboard("758609700")
+       game.StarterGui:SetCore("SendNotification", {
+           Title = "XA：提示",
+           Text = "已复制到剪贴板",
+       })
+   end
+end})
